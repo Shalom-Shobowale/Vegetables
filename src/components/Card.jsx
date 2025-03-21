@@ -15,11 +15,11 @@ export default function Card({ limit = 8, items = [] }) {
 
   return (
     <div>
-      <div className="grid grid-cols-4 gap-4 w-[90%] mx-auto gap-y-9">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 w-[90%] mx-auto gap-y-9">
         {items.slice(0, limit).map((item, id) => (
           <div
             key={id}
-            className="w-64 h-72 bg-cover border relative group hover:rounded-md hover:shadow-inner"
+            className="md:w-64 h-72 bg-cover border relative group hover:rounded-md hover:shadow-inner flex flex-col justify-center items-center"
             data-aos="fade-up"
             data-aos-delay={id * 200}
           >
@@ -53,7 +53,7 @@ export default function Card({ limit = 8, items = [] }) {
               </div>
             </div>
             <div
-              className={`bg-red-4 h-full w-full absolute duration-300 top-0 opacity-0 group-hover:opacity-100 ${
+              className={`bg-red-4 h-full w-full absolute duration-300 top-0 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center ${
                 item.price || item.discount ? "hover:opacity-0" : "opacity-100"
               }`}
             >

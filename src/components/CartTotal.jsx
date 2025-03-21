@@ -6,7 +6,7 @@ import { TbCurrencyNaira } from "react-icons/tb";
 export default function CartTotal() {
   const { cart } = useContext(CountContext);
 
-  // Calculate the total price using reduce, considering the quantity of each item
+
   const totalPrice = cart.reduce(
     (total, item) => total + item.price * item.quantity,
     0

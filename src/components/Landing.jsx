@@ -22,8 +22,8 @@ export default function Landing({description, bgImage}){
   });
     return(
         <div  style={{backgroundImage: `url(${images[currentImageIndex]})`,transition: 'background-image 1.5s ease-in-out'}} className="h-screen bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center">
-            <p className="text-8xl text-foreground font-Amatic" data-aos="fade-up" >{description}</p>
-            <p className="uppercase text-center text-[11px] tracking-[4px] text-white font-light my-5" data-aos="fade-up" data-aos-delay="150">We deliver organic vegetables &amp; fruits</p>
+            <p className="text-4xl md:text-8xl text-foreground font-Amatic" data-aos="fade-up" >{description}</p>
+            <p className="uppercase text-center text-[11px] tracking-[4px] text-white font-light my-5 md:px-0 px-4" data-aos="fade-up" data-aos-delay="150">We deliver organic vegetables &amp; fruits</p>
             <div data-aos="fade-up" data-aos-delay="300">
               <Button name="View Details"/>
             </div>

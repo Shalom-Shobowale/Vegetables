@@ -2,8 +2,8 @@ import Button from "../components/Botton";
 
 export default function Grid() {
   return (
-    <div className="flex justify-between gap-4 w-[90%] mx-auto">
-      <div className="w-[31%]">
+    <div className="flex md:flex-row flex-col justify-between gap-4 w-[90%] mx-auto">
+      <div className="md:w-[31%]">
         <div
           className=" h-64 bg-no-repeat bg-center bg-cover mb-5"
           style={{ backgroundImage: "url(category-1.jpg.webp)" }}
@@ -14,7 +14,7 @@ export default function Grid() {
           </div>
         </div>
         <div
-          className=" h-64 bg-no-repeat bg-center bg-cover"
+          className=" h-64 bg-no-repeat bg-center bg-cover md:mb-0 mb-4"
           style={{ backgroundImage: "url(category-2.jpg.webp)" }}
            data-aos="fade-up"
         >
@@ -24,7 +24,7 @@ export default function Grid() {
         </div>
       </div>
       <div
-        className="w-[33%] bg-no-repeat bg-center bg-cover flex items-center flex-col"
+        className="md:w-[33%] bg-no-repeat bg-center bg-cover flex items-center flex-col"
         style={{ backgroundImage: "url(category.jpg.webp)" }}
         data-aos="fade-up"
       >
@@ -32,7 +32,7 @@ export default function Grid() {
         <p className="text-textColors text-[15px] my-2 tracking-tight">Protect the health of every home</p>
         <Button name="Shop now"/>
       </div>
-      <div className="w-[31%]">
+      <div className="md:w-[31%]">
         <div
           className="h-64 bg-no-repeat bg-center bg-cover mb-5"
           style={{ backgroundImage: "url(category-3.jpg.webp)" }}

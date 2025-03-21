@@ -14,16 +14,6 @@ export default function CartPage(){
                 </div>
             </div>
             <Cart />
-            {/* <table className="bg-background flex w-[90%] mx-auto justify-end">
-                <tr>
-                    <th></th>
-                    <th></th>
-                    <th>Product name</th>
-                    <th>Price</th>
-                    <th>Quantity</th>
-                    <th>Total</th>
-                </tr>
-            </table> */}
         </>
     )
 }

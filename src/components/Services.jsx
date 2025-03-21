@@ -33,13 +33,13 @@ const circles = [
 
 export default function Services() {
   return (
-    <div className="flex justify-around items-center w-[90%] mx-auto my-20">
+    <div className="flex md:flex-row flex-col justify-around items-center w-[90%] mx-auto my-12 md:my-20">
       {circles.map((circle, index) => (
         <div
           key={index}
-          className="flex flex-col items-center"
+          className="flex flex-col items-center  md:mb-0 mb-8"
           data-aos="fade-up"
-          data-aos-delay={index * 200} // Stagger the delay by 200ms for each item
+          data-aos-delay={index * 200} 
         >
           <div
             className={`w-24 h-24 hover:bg-background ${circle.color} rounded-full flex justify-center items-center`}
