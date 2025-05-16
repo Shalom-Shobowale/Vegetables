@@ -8,7 +8,7 @@ import { FaHeart } from "react-icons/fa";
 export default function Footer() {
     return(
         <footer className="flex flex-col justify-center items-center py-20 bg-[#f9f9f9]">
-           <div className="flex flex-col md:flex-row w-[90%] justify-between">
+           <div className="flex flex-col md:flex-row w-[90%] md:w-[80%] justify-between">
                 <div>
                     <h1 className="font-medium">Vegefoods</h1>
                     <p className="mt-6 md:mb-12 text-sm text-pretty">Far far away, behind the word<br/> mountains, far from the<br/> countries Vokalia and<br/> Consonantia.</p>

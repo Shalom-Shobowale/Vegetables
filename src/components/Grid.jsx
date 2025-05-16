@@ -2,7 +2,7 @@ import Button from "../components/Botton";
 
 export default function Grid() {
   return (
-    <div className="flex md:flex-row flex-col justify-between gap-4 w-[90%] mx-auto">
+    <div className="flex md:flex-row flex-col justify-between gap-4 w-[90%] md:w-[80%] mx-auto">
       <div className="md:w-[31%]">
         <div
           className=" h-64 bg-no-repeat bg-center bg-cover mb-5"

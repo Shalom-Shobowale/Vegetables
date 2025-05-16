@@ -1,5 +1,4 @@
-import ContactBoxes from "../../components/ContactBoxes";
-import ContactOne from "../../components/ContactOne";
+import ContactBoxes from "../../components/ContactPage";
 import Landing2 from "../../components/Landing2";
 
 export default function Contact() {
@@ -7,7 +6,6 @@ export default function Contact() {
     <div>
       <Landing2 name="Home Contact" image="url(about.png)" title="Contact Us" />
       <ContactBoxes />
-      <ContactOne />
     </div>
   );
 }

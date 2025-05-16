@@ -14,8 +14,8 @@ export default function Card({ limit = 8, items = [] }) {
   };
 
   return (
-    <div>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 w-[90%] mx-auto gap-y-9">
+    <div className="flex items-center justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 w-[90%] md:w-[80%] gap-y-9 ">
         {items.slice(0, limit).map((item, id) => (
           <div
             key={id}
